@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display';
+  background-image: url('pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.up>img{
+  width: 100%;
+}
+
+#container {
+  width: 80%;
+  max-width: 400px;
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.infoSection {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.infoSection>h2 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  padding-top: 30px;
+}
+
+#info {
+  margin: 10px;
+}
+
+#anchor {
+  background-color:  hsl(225, 100%, 97%);
+  border-radius: 10px;
+  display: inline-flex;
+  padding: 15px 0px 15px 10px;
+  margin: 15px;
+  width: 70%;
+}
+
+#anchor>div {
+  margin: 0px 5px;
+}
+
+button{
+  width: 70%;
+  margin: 5px;
+}
+
+h{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.price>p {
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+a{
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+#payment{
+  background-color: hsl(245, 75%, 52%);
+  border: hidden;
+  padding: 15px;
+  border-radius: 10px;
+  color: hsl(225, 100%, 98%);
+  font-weight: 700;
+}
+
+#cancel {
+  border: hidden;
+  padding: 10px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+}
+
+
+@media only screen and (max-width: 500px){
+  body{
+    background-image: url('pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    height: 20vh;
+    background-position: center;
+  }
+}  
