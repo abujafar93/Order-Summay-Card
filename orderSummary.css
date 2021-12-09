@@ -88,6 +88,11 @@ a{
   margin-left: 30px;
 }
 
+a:hover{
+  color: hsl(225, 100%, 98%);
+  background-color:  hsl(245, 75%, 52%); 
+}
+
 #payment{
   background-color: hsl(245, 75%, 52%);
   border: hidden;
